@@ -25,6 +25,13 @@ function App() {
       path: '/state',
       icon: '🧠',
       color: 'bg-emerald-50 text-emerald-700 border-emerald-100'
+    },
+    {
+      title: 'Efectos y Paginación',
+      description: 'Implementación de paginación dinámica usando useEffect y state.',
+      path: '/effect',
+      icon: '📄',
+      color: 'bg-amber-50 text-amber-700 border-amber-100'
     }
   ];
 
@@ -33,10 +40,10 @@ function App() {
       <div className="max-w-5xl mx-auto">
         <header className="text-center mb-16">
           <h1 className="text-5xl font-black text-slate-900 mb-4 tracking-tight">
-            Curso de <span className="text-blue-600 italic">React</span>
+            <span className="text-blue-600 italic">REACT JS</span>
           </h1>
           <p className="text-xl text-slate-500 max-w-2xl mx-auto font-medium">
-            Bienvenido al portal de formación. Selecciona un módulo para comenzar a explorar los conceptos fundamentales de React.
+            Selecciona un módulo
           </p>
         </header>
 

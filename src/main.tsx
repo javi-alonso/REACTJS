@@ -7,6 +7,7 @@ import NotFoundPage from './Pages/404.tsx'
 import PropsPage from './Pages/PropsPage.tsx'
 import ConditionalPage from './Pages/ConditionalPage.tsx'
 import StatePage from './Pages/StatePage.tsx'
+import EffectPage from './Pages/EffectPage.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path='/props' element={<PropsPage />} />
         <Route path='/conditional' element={<ConditionalPage />} />
         <Route path='/state' element={<StatePage />} />
+        <Route path='/effect' element={<EffectPage />} />
         {/* Default 404 */}
         <Route path='*' element={<NotFoundPage />} />
       </Routes>
